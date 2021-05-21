@@ -11,5 +11,6 @@ public class ProvaImport {
 		System.out.println("Hello,World!");
 		
 		int a = 6;
+		int b=5;
 	}
 }
