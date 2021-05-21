@@ -9,6 +9,7 @@ public class ProvaImport {
 	public void stampa() {
 		System.out.println("Hello,World!");
 		System.out.println("Hello,World!");
+		System.out.println("ProvaSonarCloud");
 		
 		int a = 6;
 		int b=5;
