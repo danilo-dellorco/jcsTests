@@ -1,6 +1,6 @@
 language: java
 jdk:
-  - openjdk8
+  - openjdk13
 addons:
   sonarcloud:
     organization: "danilo-dellorco"
