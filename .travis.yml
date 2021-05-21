@@ -1,0 +1,5 @@
+language: java
+jdk:
+  - openjdk13
+script: 
+  - mvn clean verify
