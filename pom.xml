@@ -52,7 +52,7 @@
 		<testSourceDirectory>src/test/</testSourceDirectory>
 		
 		<!-- Dichiaro la cartella contenente i file di configurazioni dei test -->
-        <sourceDirectory>src/test-conf</sourceDirectory>
+        <sourceDirectory>src/test/resources</sourceDirectory>
 
 		<!-- Dichiaro la cartella contenente i file di configurazioni dei test
 		<testResources>
