@@ -6,8 +6,7 @@ import static org.junit.Assert.assertNull;
 import java.util.Arrays;
 import java.util.Collection;
 
-import org.apache.jcs.JCS;
-import org.apache.jcs.access.exception.CacheException;
+
 import org.apache.tools.ant.taskdefs.optional.junit.JUnitTest;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -15,6 +14,10 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
+
+import org.apache.jcs.JCS;
+import org.apache.jcs.access.exception.CacheException;
+
  
 
 //TODO vedere se esiste una soluzione più elegante per /TestRemoval.ccf
