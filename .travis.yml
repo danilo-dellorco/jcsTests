@@ -10,9 +10,4 @@ addons:
     organization: "danilo-dellorco"
     token: "64bea92fca0e686e303d4c6327859d0fe075cd85"
 script: 
-  # Dà problemi ed analizza solo il pom.xml
-  #- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=danilo-dellorco_jcsTests
-
-    # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn test
-  #- sonar-scanner
+  - mvn clean verify -Psonar
