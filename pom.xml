@@ -80,6 +80,7 @@
 		</pluginManagement>
 	</build>
 
+	<!-- Utilizzare in locale per l'analisi del Coverage -->
 	<profiles>
 		<profile>
 			<id>coverage</id>
@@ -157,27 +158,5 @@
 				</plugins>
 			</build>
 		</profile>
-
-		<profile>
-			<id>sonar</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<properties>
-				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-				<sonar.organization>danilo-dellorco</sonar.organization>
-				<sonar.projectKey>danilo-dellorco_jcstests</sonar.projectKey>
-				<sonar.projectName>jcsTests</sonar.projectName>
-				<sonar.login>64bea92fca0e686e303d4c6327859d0fe075cd85</sonar.login>
-				<sonar.language>java</sonar.language>
-				<sonar.java.source>11</sonar.java.source>
-				<sonar.java.file.suffixes>.java</sonar.java.file.suffixes>
-				<sonar.tests>${project.build.testSourceDirectory}</sonar.tests>
-				<sonar.verbose>true</sonar.verbose>
-				<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-			</properties>
-		</profile>
 	</profiles>
-
-
 </project>

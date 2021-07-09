@@ -10,4 +10,4 @@ addons:
     organization: "danilo-dellorco"
     token: "64bea92fca0e686e303d4c6327859d0fe075cd85"
 script: 
-  - mvn clean verify -Psonar
+  - - mvn clean verify org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=danilo-dellorco_jcsTests
