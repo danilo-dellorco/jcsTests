@@ -20,7 +20,6 @@ import org.apache.jcs.access.exception.CacheException;
 
  
 
-//TODO vedere se esiste una soluzione più elegante per /TestRemoval.ccf
 @RunWith(Parameterized.class)
 @Category(JUnitTest.class)
 public class JCSRemovalSimpleConcurrentTest {
@@ -41,13 +40,10 @@ public class JCSRemovalSimpleConcurrentTest {
 	}
 	
 	
-	/*
-	 * Qui inseriamo i valori ricavati dal Domain Partitioning
-	 */
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][] {
-                {100},{200},{300},{400},{500} // Lasciare solo 500
+        	{500},{100},{200},{300},{400},{-1},{0}
         });
     }
 

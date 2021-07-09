@@ -74,7 +74,7 @@ public class JCSThrashTest {
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][] {
-                {15,500},{-1,-1},{50,5000}
+                {15,500},{-1,-1},{50,5000},{0,0},{0,-1},
         });
     }
 	
