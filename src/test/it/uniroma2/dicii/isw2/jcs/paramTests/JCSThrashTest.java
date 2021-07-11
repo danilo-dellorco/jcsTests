@@ -52,7 +52,6 @@ import it.uniroma2.dicii.isw2.jcs.paramTests.JCSThrashTest.Executable;
 
 /**
  * This is based on a test that was posted to the user's list:
- *
  * http://www.opensubscriber.com/message/jcs-users@jakarta.apache.org/2435965.html
  *
  */
