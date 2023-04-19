@@ -1,3 +1,7 @@
 # ISW2 Tests for JCS
 
-Unit and integration tests made for JCS Software
+Unit and integration tests made for JCS Software. 
+
+## Class Tested
+- `JCSRemovalSimpleConcurrentTest.java`
+- `JCSThrashTest.java`
